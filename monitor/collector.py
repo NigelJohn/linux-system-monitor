@@ -61,7 +61,7 @@ def get_top_processes(n=5):
     return top
 
 
-def collect_all():
+def collect_metrics():
     timestamp = datetime.datetime.now().isoformat()
     return {
         "timestamp": timestamp,
